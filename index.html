@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gif Tastic</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+        
+</head>
+<body>
+    <div class="jumbotron" id="header">
+         <img id="topImageLeft" src="assets/images/img.gif">
+        <img id="topImageRight" src="assets/images/img.gif">
+        <h1>For the LOVE of Fruits!</h1>
+        <h4>Click the buttons to display GIPHYs of your favorite fruit<br>
+            Click the GIPHYs to pause and play<br>Search to add more buttons!</h4>
+      </div>
+
+      <form class="form-inline" id="fruitSearch">
+          <div class="form-group">
+              <label for="fruitInput">Search for a Fruit</label>
+              <input type="text" id="fruitInput">
+          </div>
+          <input id="addFruit" type="submit" value="submit">
+      </form>
+
+      <div class="row">
+            <div class="container">
+              <div class="btn-group inline pull-left">
+                <button class="btn btn-primary" id="fruit" data-search="Strawberry">Strawberry</button>
+                <button class="btn btn-primary" id="fruit" data-search="Watermelon">Watermelon</button>
+                <button class="btn btn-primary" id="fruit" data-search="Grapes">Grapes</button>
+                <button class="btn btn-primary" id="fruit" data-search="Peach">Peach</button>
+                <button class="btn btn-primary" id="fruit" data-search="Blueberry">Blueberry</button>
+                <button class="btn btn-primary" id="fruit" data-search="Papaya">Papaya</button>
+                <button class="btn btn-primary" id="fruit" data-search="Apples">Apples</button>
+                <button class="btn btn-primary" id="fruit" data-search="Cherries">Cherries</button>
+          
+                <div id="myButtons"></div>
+              </div> 
+            </div> 
+          </div> 
+          
+          
+          <div class="row">
+            <div class="container">
+                <span><div id="gifArea"></div></span>
+            </div> 
+          </div> 
+
+    
+</body>
+</html>
